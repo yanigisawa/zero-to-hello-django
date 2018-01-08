@@ -5,6 +5,9 @@ I merely aim to present *one* possible solution for getting started with Django.
 many others. I encourage you to find the tools that work best for you, and make sense for
 your work flow.
 
+Steps
+-- 
+
 1. Python.org (Do Windows tip)
 2. Download Python Highest numbered python (3.6.4 as of time of writing)
 3. Run the installer, check the "Include Python in path" check box
@@ -25,6 +28,8 @@ Settings, and enter: `"python.pythonPath": "C:/Users/<username>/Envs/indypy/Scri
 
 
 Windows Tips:
+--
+
 * To see the path of an executable, use `where python` - this will show you whether you're
 running the system's python, or a virtualenv's version of python
 
@@ -35,7 +40,7 @@ is snapped, windows allows you to select an other window to pick for the other s
 command line location.
 
 * Type `cmd` or `powershell` in Windows Explorer address bar to open that console at that
-path location
+path 
 
 * From a `cmd` session, use the Up arrow key to re-type a previous command in the
 window. Press enter to re-execute it
