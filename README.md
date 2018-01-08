@@ -8,7 +8,8 @@ your work flow.
 Steps
 -- 
 
-1. Python.org (Do Windows tip)
+1. Python.org 
+1a. Git for windows (Presentation: Do Windows tip)
 2. Download Python Highest numbered python (3.6.4 as of time of writing)
 3. Run the installer, check the "Include Python in path" check box
 4. After install, click the "Disable path length limit" button
@@ -16,7 +17,7 @@ Steps
 6. pip install virtualenv
 7. pip install virtualenvwrapper-win
 8. mkvirtualenv <projectName>
-9. pip install django (Do windows Tip)
+9. pip install django (Presentation: Do windows Tip)
 10. pip install pylint
 11. Install Editor (VSCode used during Demo)
 12. `code .`
@@ -49,3 +50,10 @@ window. Press enter to re-execute it
 or file name within the current folder (also called directories on Mac & Linux)
 
 * Consider using an alternate Command Shell, Like Console2, or ConsoleZ
+
+* Clear REPL console in windows:
+```
+>>> import os
+>>> clear = lambda: os.system('cls')
+>>> clear()
+```
