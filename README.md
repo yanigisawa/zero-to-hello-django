@@ -9,7 +9,7 @@ Steps
 -- 
 
 1. Python.org 
-1a. Git for windows (Presentation: Do Windows tip)
+  * Git for windows (Presentation: Do Windows tip)
 2. Download Python Highest numbered python (3.6.4 as of time of writing)
 3. Run the installer, check the "Include Python in path" check box
 4. After install, click the "Disable path length limit" button
