@@ -16,7 +16,7 @@ Steps
 5. Win+r -> type "cmd" to open a command line
 6. pip install virtualenv
 7. pip install virtualenvwrapper-win
-8. mkvirtualenv `projectName`
+8. mkvirtualenv `projectName` - use `workon` to change between environments, or re-activate an environment
 9. pip install django (Presentation: Do windows Tip)
 10. pip install pylint
 11. Install Editor (VSCode used during Demo)
@@ -25,8 +25,9 @@ Steps
 14. To configure you're manually installed version of pylint, use Ctrl+, to open VSCode
 Settings, and enter: `"python.pythonPath": "C:/Users/`(username)`/Envs/`(envname)`/Scripts/python.exe"`
 15. django-admin startproject indypy
-16. python manage.py migrate
-17. Continue Tutorial at: https://docs.djangoproject.com/en/2.0/intro/tutorial01/
+16. cd indypy
+17. python manage.py migrate
+18. Continue Tutorial at: https://docs.djangoproject.com/en/2.0/intro/tutorial01/
 
 
 Windows Tips:
@@ -41,7 +42,7 @@ is snapped, windows allows you to select an other window to pick for the other s
 * Type `explorer .` (note trailing period) to open an explorer window at the current
 command line location.
 
-* Type `cmd` or `powershell` in Windows Explorer address bar to open that console at that
+* Type `cmd` or `powershell` in Windows Explorer address bar to open a console at that
 path 
 
 * From a `cmd` session, use the Up arrow key to re-type a previous command in the
