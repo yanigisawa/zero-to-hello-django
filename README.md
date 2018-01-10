@@ -16,14 +16,14 @@ Steps
 5. Win+r -> type "cmd" to open a command line
 6. pip install virtualenv
 7. pip install virtualenvwrapper-win
-8. mkvirtualenv <projectName>
+8. mkvirtualenv `projectName`
 9. pip install django (Presentation: Do windows Tip)
 10. pip install pylint
 11. Install Editor (VSCode used during Demo)
 12. `code .`
 13. Install the `Python` extension from within VSCode
 14. To configure you're manually installed version of pylint, use Ctrl+, to open VSCode
-Settings, and enter: `"python.pythonPath": "C:/Users/<username>/Envs/<envname>/Scripts/python.exe"`
+Settings, and enter: `"python.pythonPath": "C:/Users/`(username)`/Envs/`(envname)`/Scripts/python.exe"`
 15. django-admin startproject indypy
 16. python manage.py migrate
 17. Continue Tutorial at: https://docs.djangoproject.com/en/2.0/intro/tutorial01/
