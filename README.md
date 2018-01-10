@@ -23,9 +23,10 @@ Steps
 12. `code .`
 13. Install the `Python` extension from within VSCode
 14. To configure you're manually installed version of pylint, use Ctrl+, to open VSCode
-Settings, and enter: `"python.pythonPath": "C:/Users/<username>/Envs/indypy/Scripts/python.exe"`
-14. Continue Tutorial at: https://docs.djangoproject.com/en/2.0/intro/tutorial01/
-
+Settings, and enter: `"python.pythonPath": "C:/Users/<username>/Envs/<envname>/Scripts/python.exe"`
+15. django-admin startproject indypy
+16. python manage.py migrate
+17. Continue Tutorial at: https://docs.djangoproject.com/en/2.0/intro/tutorial01/
 
 
 Windows Tips:
